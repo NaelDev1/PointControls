@@ -1,0 +1,85 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+body
+{
+    margin: auto;
+    max-width: 1250px;
+    background-image: url('images/TiraQueEuVouCagar.jpg');
+}
+.top-panel{
+    display: flex;
+    max-width: 1250px;
+    margin: auto;
+    border-radius: 10PX;
+    border-color: Black 2px;
+    background-color: red;
+    box-shadow:2px 2px 3px #000;
+   align-items: flex-end
+   ;
+}
+
+.top-panel-container{
+   width: 100%;
+    
+}
+.info-autor{
+    float: right;
+    text-align: right;
+    width: 100%;
+    margin: 0px 10px 0px 0px;
+}
+
+.main-section{
+    display: flex;
+}
+.left-panel{
+    display:block;
+    max-width: 210px;
+    margin: 10px 10px 0px 0px;
+    background-color: #fff;
+    box-shadow:1px 1px 5px #000;
+    border-radius: 10px;
+    height: 250px;
+    width: 210px;
+}
+
+.container{
+    margin: 0px 10px 10px 10px;
+}
+
+.main-menu{
+    width: 100%;
+    margin: 10px 0px 0px 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow:1px 1px 5px #000;
+}
+
+.table{
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        margin: 10px 10px 40px 10px;
+        width: 100%;
+}
+.table tr:nth-child(odd){
+    background-color: #fff;
+}
+.table tr{
+    border-bottom: 1px solid #ddd;
+}
+table th{
+   text-align: left;
+}
+
+.white{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 10px;
+}
+
+.align-center{
+    text-align: center;
+}
